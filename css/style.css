@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#banner {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+
+#banner2 {
+  width: 100%;
+  height: 598px;
+  background-image: url(../img/Banner2.png);
+}
+
+.principal {
+  width: 1920px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.principal2 {
+  width: 1920px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+#nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#box1 {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#boximg {
+  height: 478px;
+  margin-top: 0 auto;
+}
+
+#boximg img {
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 4px #000;
+          box-shadow: 0 0 4px #000;
+  margin-left: 20px;
+}
+
+#box1conteudo {
+  width: 800px;
+  margin-left: 60px;
+  height: 478px;
+  background-color: #fff;
+}
+
+#box2 {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#box2img img {
+  margin-left: 40px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 4px #000;
+          box-shadow: 0 0 4px #000;
+}
+
+#box2conteudo {
+  width: 800px;
+  height: 478px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#conteudo2 {
+  width: 100%;
+  height: 412px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#conteudo3 {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#pconteudo3 {
+  width: 40%;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+#pconteudo33 {
+  width: 40%;
+  line-height: 20px;
+  margin-top: -50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.cards {
+  -webkit-box-shadow: 0 0 4px #1f1e1e;
+          box-shadow: 0 0 4px #1f1e1e;
+  height: 412px;
+}
+
+#spam {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-left: 170px;
+  margin-top: -20px;
+  color: #19bc9b;
+}
+
+#spambox2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-left: 310px;
+  margin-top: -15px;
+  color: #164a81;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-left: 50px;
+}
+
+#pbanner {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 600px;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  line-height: 30px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+#box2p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  color: #19bc9b;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: #164a81;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+#logo {
+  width: 300px;
+  height: 100px;
+  margin-left: 146px;
+}
+
+#menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#menu ul li a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: #19bc9b;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+#menu ul li a:hover {
+  color: #ecca0a;
+  border-bottom: 2px solid #ec0a0a;
+  padding-bottom: 8px;
+}
+
+#rodape {
+  width: 100%;
+  height: 250px;
+  background-color: #19bc9b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#logorodape {
+  margin-left: 350px;
+}
+/*# sourceMappingURL=style.css.map */
